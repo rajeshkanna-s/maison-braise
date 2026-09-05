@@ -13,7 +13,8 @@ import {
   Sparkle as Sparkles,
   Compass,
   Wine,
-  List as MenuIcon
+  List as MenuIcon,
+  Medal as Award
 } from '@phosphor-icons/react';
 
 const MENU_ITEMS = [
