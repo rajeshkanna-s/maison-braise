@@ -25,7 +25,7 @@ const MENU_ITEMS = [
     description: 'Celeriac Purée, Brown Butter',
     fullDetail: 'Hand-dived Atlantic sea scallops caramelized over white oak embers, served atop silky celeriac purée, infused hazelnut brown butter, and crisp samphire.',
     price: '$26',
-    image: '/images/menu-scallops.png',
+    image: './images/menu-scallops.png',
     pairing: '2021 Domaine Leflaive Puligny-Montrachet',
     origin: 'Isle of Skye, Scotland',
     allergens: 'Molluscs, Dairy'
@@ -37,7 +37,7 @@ const MENU_ITEMS = [
     description: 'Smoked Paprika, Lemon Oil',
     fullDetail: 'Galician octopus slow-braised for 6 hours then flash-seared over glowing binchotan charcoal. Dressed with smoked pimentón de la Vera, confit garlic cream, and cold-pressed citrus oil.',
     price: '$28',
-    image: '/images/menu-octopus.png',
+    image: './images/menu-octopus.png',
     pairing: '2020 Albariño de Fefiñanes',
     origin: 'Rías Baixas, Spain',
     allergens: 'Molluscs'
@@ -49,7 +49,7 @@ const MENU_ITEMS = [
     description: 'Fermented Garlic, Jus',
     fullDetail: 'Kagoshima A5 Wagyu flank rested over smoldering applewood embers. Glazed in 30-day black fermented garlic jus and served with charred baby leeks and bone marrow reduction.',
     price: '$46',
-    image: '/images/menu-wagyu.png',
+    image: './images/menu-wagyu.png',
     pairing: '2018 Château Pontet-Canet Pauillac',
     origin: 'Kagoshima Prefecture, Japan',
     allergens: 'None'
@@ -61,7 +61,7 @@ const MENU_ITEMS = [
     description: 'Blackberry, Crème Fraîche',
     fullDetail: '72% single-origin Venezuelan dark chocolate torte gently warm-smoked over cherrywood. Accompanied by wild forest blackberry compote, cultured crème fraîche, and gold leaf dust.',
     price: '$18',
-    image: '/images/menu-chocolate.png',
+    image: './images/menu-chocolate.png',
     pairing: '2017 Taylor Fladgate Late Bottled Vintage Port',
     origin: 'Chuao, Venezuela',
     allergens: 'Dairy, Eggs'
@@ -326,7 +326,7 @@ export function App() {
             <div className="hero-visual-wrapper">
               <div className="hero-plate-container">
                 <img
-                  src="/images/hero-plated-entree.png"
+                  src="./images/hero-plated-entree.png"
                   alt="Maison Braise signature woodfired meat entrée served on an ivory ceramic plate"
                   className="hero-plate-img"
                 />
@@ -359,7 +359,7 @@ export function App() {
             {/* Left Media Box */}
             <div className="story-media-box">
               <img
-                src="/images/fire-kitchen.png"
+                src="./images/fire-kitchen.png"
                 alt="Woodfire embers and copper pan in Maison Braise kitchen"
               />
               <span className="story-media-tag">01 / The Hearth</span>
@@ -482,7 +482,7 @@ export function App() {
           {/* Right Visual Image */}
           <div className="tasting-media-box">
             <img
-              src="/images/tasting-menu.png"
+              src="./images/tasting-menu.png"
               alt="Artfully plated course on dark ceramic bowl"
               className="tasting-plate-img"
             />
@@ -553,7 +553,7 @@ export function App() {
             {/* Left Photo */}
             <div className="chef-photo-box">
               <img
-                src="/images/chef-julien.png"
+                src="./images/chef-julien.png"
                 alt="Executive Chef Julien Moreau delicately plating culinary creation"
               />
             </div>
@@ -604,7 +604,7 @@ export function App() {
           <div className="depth-stage">
             {/* Left Floating Card 1 (Dark Flame) */}
             <div className="floating-card card-dark-flame">
-              <img src="/images/fire-kitchen.png" alt="Fire embers" />
+              <img src="./images/fire-kitchen.png" alt="Fire embers" />
               <div className="card-content">
                 <h5>Fire is our first ingredient.</h5>
                 <p>It brings depth, aroma, and soul to every plate.</p>
@@ -622,7 +622,7 @@ export function App() {
 
             {/* Left Floating Card 3 (Rust Atmosphere) */}
             <div className="floating-card card-rust-atmosphere">
-              <img src="/images/dining-room.png" alt="Dimly lit dining room" />
+              <img src="./images/dining-room.png" alt="Dimly lit dining room" />
               <div className="card-content">
                 <h5>Atmosphere that lingers.</h5>
                 <p>Warm light, thoughtful details, and the sound of stories shared.</p>
@@ -641,7 +641,7 @@ export function App() {
                 </span>
               </div>
               <img
-                src="/images/hero-plated-entree.png"
+                src="./images/hero-plated-entree.png"
                 alt="Signature Dish"
                 style={{ borderRadius: '50%', width: '180px', height: '180px', margin: '0 auto 1.5rem', boxShadow: 'var(--shadow-md)' }}
               />
@@ -655,7 +655,7 @@ export function App() {
 
             {/* Right Floating Card 1 (Chef Plating) */}
             <div className="floating-card card-right-chef">
-              <img src="/images/chef-julien.png" alt="Chef Julien" />
+              <img src="./images/chef-julien.png" alt="Chef Julien" />
             </div>
 
             {/* Right Floating Card 2 (Dark Intention) */}
