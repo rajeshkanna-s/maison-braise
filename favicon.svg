@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="terracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C85A32"/>
+      <stop offset="50%" stop-color="#9E4A28"/>
+      <stop offset="100%" stop-color="#4A2012"/>
+    </linearGradient>
+    <linearGradient id="goldFlame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#9E4A28"/>
+      <stop offset="50%" stop-color="#D97736"/>
+      <stop offset="100%" stop-color="#F3C68F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#1C1816"/>
+  <!-- Decorative Ring -->
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#9E4A28" stroke-width="1.2" opacity="0.4" stroke-dasharray="3, 3"/>
+  <!-- Braise Flame Emblem -->
+  <g transform="translate(32, 33)">
+    <!-- Outer flame petalloid -->
+    <path d="M0, -18 C6, -10 14, -4 14, 7 C14, 15 8, 20 0, 20 C-8, 20 -14, 15 -14, 7 C-14, -4 -6, -10 0, -18 Z" fill="url(#goldFlame)" opacity="0.9"/>
+    <!-- Inner tongue of fire -->
+    <path d="M0, -12 C3, -6 7, -2 7, 5 C7, 10 4, 14 0, 14 C-4, 14 -7, 10 -7, 5 C-7, -2 -3, -6 0, -12 Z" fill="#FAF7F2"/>
+    <!-- Central spark point -->
+    <circle cx="0" cy="5" r="2" fill="#9E4A28"/>
+    <!-- Flame crest accents -->
+    <path d="M-8, -5 C-12, -1 -12, 6 -8, 10" fill="none" stroke="#D97736" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M8, -5 C12, -1 12, 6 8, 10" fill="none" stroke="#D97736" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+</svg>
